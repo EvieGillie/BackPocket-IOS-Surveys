@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0B82FF21C55E7A00D6DC4C /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0B82FB21C55E6100D6DC4C /* ResearchKit.framework */; };
+		8B0B830121C561F100D6DC4C /* WellbeingAssessTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B830021C561F100D6DC4C /* WellbeingAssessTask.swift */; };
+		8B46519E21C721100090C4A7 /* BarriersTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B46519D21C721100090C4A7 /* BarriersTask.swift */; };
+		8BD103D921D81DA200B5A4ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE78CFC21C46BEA0007C1F8 /* ViewController.swift */; };
+		8BD103DD21D81DA300B5A4ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE78CFC21C46BEA0007C1F8 /* ViewController.swift */; };
+		8BD103E021D821A200B5A4ED /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0B82FB21C55E6100D6DC4C /* ResearchKit.framework */; };
+		8BD103E121D821A200B5A4ED /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0B82FB21C55E6100D6DC4C /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8BE78CFB21C46BEA0007C1F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE78CFA21C46BEA0007C1F8 /* AppDelegate.swift */; };
 		8BE78CFD21C46BEA0007C1F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE78CFC21C46BEA0007C1F8 /* ViewController.swift */; };
 		8BE78D0021C46BEA0007C1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE78CFE21C46BEA0007C1F8 /* Main.storyboard */; };
@@ -15,9 +22,31 @@
 		8BE78D0821C46BEB0007C1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE78D0621C46BEB0007C1F8 /* LaunchScreen.storyboard */; };
 		8BE78D1321C46BEB0007C1F8 /* WellbeingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE78D1221C46BEB0007C1F8 /* WellbeingTests.swift */; };
 		8BE78D1E21C46BEB0007C1F8 /* WellbeingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE78D1D21C46BEB0007C1F8 /* WellbeingUITests.swift */; };
+		8BE78D2C21C472C90007C1F8 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE78D2B21C472C90007C1F8 /* ConsentTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8B0B82FA21C55E6100D6DC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0B82F421C55E6000D6DC4C /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		8B0B82FC21C55E6100D6DC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0B82F421C55E6000D6DC4C /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		8BD103E221D821A200B5A4ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0B82F421C55E6000D6DC4C /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 		8BE78D0F21C46BEB0007C1F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8BE78CEF21C46BEA0007C1F8 /* Project object */;
@@ -34,7 +63,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8BD103E421D821A200B5A4ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BD103E121D821A200B5A4ED /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8B0B82F421C55E6000D6DC4C /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		8B0B830021C561F100D6DC4C /* WellbeingAssessTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingAssessTask.swift; sourceTree = "<group>"; };
+		8B46519D21C721100090C4A7 /* BarriersTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarriersTask.swift; sourceTree = "<group>"; };
 		8BE78CF721C46BEA0007C1F8 /* Wellbeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wellbeing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE78CFA21C46BEA0007C1F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BE78CFC21C46BEA0007C1F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +95,7 @@
 		8BE78D1921C46BEB0007C1F8 /* WellbeingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellbeingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE78D1D21C46BEB0007C1F8 /* WellbeingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingUITests.swift; sourceTree = "<group>"; };
 		8BE78D1F21C46BEB0007C1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE78D2B21C472C90007C1F8 /* ConsentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD103E021D821A200B5A4ED /* ResearchKit.framework in Frameworks */,
+				8B0B82FF21C55E7A00D6DC4C /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +125,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0B82F521C55E6000D6DC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0B82FB21C55E6100D6DC4C /* ResearchKit.framework */,
+				8B0B82FD21C55E6100D6DC4C /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0B82FE21C55E7A00D6DC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BE78CEE21C46BEA0007C1F8 = {
 			isa = PBXGroup;
 			children = (
+				8B0B82F421C55E6000D6DC4C /* ResearchKit.xcodeproj */,
 				8BE78CF921C46BEA0007C1F8 /* Wellbeing */,
 				8BE78D1121C46BEB0007C1F8 /* WellbeingTests */,
 				8BE78D1C21C46BEB0007C1F8 /* WellbeingUITests */,
 				8BE78CF821C46BEA0007C1F8 /* Products */,
+				8B0B82FE21C55E7A00D6DC4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +169,13 @@
 				8BE78CFA21C46BEA0007C1F8 /* AppDelegate.swift */,
 				8BE78CFC21C46BEA0007C1F8 /* ViewController.swift */,
 				8BE78CFE21C46BEA0007C1F8 /* Main.storyboard */,
+				8BE78D2B21C472C90007C1F8 /* ConsentTask.swift */,
 				8BE78D0421C46BEB0007C1F8 /* Assets.xcassets */,
 				8BE78D0621C46BEB0007C1F8 /* LaunchScreen.storyboard */,
 				8BE78D0921C46BEB0007C1F8 /* Info.plist */,
 				8BE78D0121C46BEA0007C1F8 /* Wellbeing.xcdatamodeld */,
+				8B0B830021C561F100D6DC4C /* WellbeingAssessTask.swift */,
+				8B46519D21C721100090C4A7 /* BarriersTask.swift */,
 			);
 			path = Wellbeing;
 			sourceTree = "<group>";
@@ -138,10 +208,12 @@
 				8BE78CF321C46BEA0007C1F8 /* Sources */,
 				8BE78CF421C46BEA0007C1F8 /* Frameworks */,
 				8BE78CF521C46BEA0007C1F8 /* Resources */,
+				8BD103E421D821A200B5A4ED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8BD103E321D821A200B5A4ED /* PBXTargetDependency */,
 			);
 			name = Wellbeing;
 			productName = Wellbeing;
@@ -218,6 +290,12 @@
 			mainGroup = 8BE78CEE21C46BEA0007C1F8;
 			productRefGroup = 8BE78CF821C46BEA0007C1F8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8B0B82F521C55E6000D6DC4C /* Products */;
+					ProjectRef = 8B0B82F421C55E6000D6DC4C /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8BE78CF621C46BEA0007C1F8 /* Wellbeing */,
@@ -226,6 +304,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8B0B82FB21C55E6100D6DC4C /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 8B0B82FA21C55E6100D6DC4C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B0B82FD21C55E6100D6DC4C /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 8B0B82FC21C55E6100D6DC4C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8BE78CF521C46BEA0007C1F8 /* Resources */ = {
@@ -259,8 +354,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B46519E21C721100090C4A7 /* BarriersTask.swift in Sources */,
 				8BE78CFD21C46BEA0007C1F8 /* ViewController.swift in Sources */,
+				8BE78D2C21C472C90007C1F8 /* ConsentTask.swift in Sources */,
 				8BE78D0321C46BEA0007C1F8 /* Wellbeing.xcdatamodeld in Sources */,
+				8B0B830121C561F100D6DC4C /* WellbeingAssessTask.swift in Sources */,
 				8BE78CFB21C46BEA0007C1F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD103D921D81DA200B5A4ED /* ViewController.swift in Sources */,
 				8BE78D1321C46BEB0007C1F8 /* WellbeingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD103DD21D81DA300B5A4ED /* ViewController.swift in Sources */,
 				8BE78D1E21C46BEB0007C1F8 /* WellbeingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +384,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8BD103E321D821A200B5A4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = 8BD103E221D821A200B5A4ED /* PBXContainerItemProxy */;
+		};
 		8BE78D1021C46BEB0007C1F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8BE78CF621C46BEA0007C1F8 /* Wellbeing */;
@@ -319,7 +424,7 @@
 		8BE78D2021C46BEB0007C1F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -353,6 +458,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -380,7 +486,7 @@
 		8BE78D2121C46BEB0007C1F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -414,6 +520,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -435,6 +542,7 @@
 		8BE78D2321C46BEB0007C1F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVKM6PETHB;
@@ -453,6 +561,7 @@
 		8BE78D2421C46BEB0007C1F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVKM6PETHB;
